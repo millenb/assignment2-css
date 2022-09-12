@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add a white background color to the navigation bar */
+.topnav {
+    background-color: white;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: rgb(95, 94, 94);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Add a color to the active link */
+.topnav a.active {
+    color: red;
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+    background-color: white;
+    font-size: 1.8em;
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+    background-color: rgb(95, 94, 94);
+    font-size: 1.1em;
+    color: white;
+}
+
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered2 {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#para2, #para3 {
+    text-decoration-thickness: 5px;
+}
