@@ -17,11 +17,13 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    float: right;
 }
 
 /* Add a color to the active link */
 .topnav a.active {
     color: red;
+    text-decoration-line: underline;
 }
 
 /* Split the screen in half */
@@ -30,7 +32,7 @@ body {
     width: 50%;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 20;
     overflow-x: hidden;
     padding-top: 20px;
 }
