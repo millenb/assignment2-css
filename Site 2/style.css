@@ -1,0 +1,109 @@
+.card {
+    width: 150px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    overflow: hidden; display: flex;
+    flex-direction: column;
+}
+
+.card1 {
+    width: 150px;
+    border: 1px solid #000000;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+
+.card2 {
+    width: 150px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+
+.card3 {
+    width: 150px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header {
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 20px;
+}
+
+.card1-header {
+    color: white
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 20px;
+}
+
+.card2-header {
+    color: #000000;
+    background-color: pink;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 20px;
+}
+
+.card3-header {
+    color: red;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 20px;
+}
+
+.card-main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.card1-main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.card2-main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.card3-main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
